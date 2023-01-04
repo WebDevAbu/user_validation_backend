@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const db = require("../connection/connection");
+const db = require("../connection/Connection.js");
 const country = require("country-state-city").Country;
 const state = require("country-state-city").State;
 const city = require("country-state-city").City;
